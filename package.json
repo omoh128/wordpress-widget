@@ -1,0 +1,31 @@
+{
+  "name": "wordpress-widget",
+  "version": "1.0.0",
+  "description": "simple wordpress dashboard plugin",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omoh128/wordpress-widget.git"
+  },
+  "author": "Omomoh Agiogu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omoh128/wordpress-widget/issues"
+  },
+  "homepage": "https://github.com/omoh128/wordpress-widget#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^24.4.0"
+  },
+  "dependencies": {
+    "react-cool-form": "^0.4.1",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.5.4",
+    "recharts": "^2.1.15",
+    "style-components": "^0.1.0"
+  }
+}
